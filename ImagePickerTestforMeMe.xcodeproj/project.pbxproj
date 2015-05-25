@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97142E701B0AC2A2000C7FC5 /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97142E6F1B0AC2A2000C7FC5 /* Meme.swift */; };
+		972E71E71B02654400D8800E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972E71E61B02654400D8800E /* AppDelegate.swift */; };
+		972E71E91B02654400D8800E /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972E71E81B02654400D8800E /* EditViewController.swift */; };
+		972E71EC1B02654400D8800E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972E71EA1B02654400D8800E /* Main.storyboard */; };
+		972E71EE1B02654400D8800E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 972E71ED1B02654400D8800E /* Images.xcassets */; };
+		972E71F11B02654400D8800E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 972E71EF1B02654400D8800E /* LaunchScreen.xib */; };
+		972E71FD1B02654400D8800E /* ImagePickerTestforMeMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972E71FC1B02654400D8800E /* ImagePickerTestforMeMeTests.swift */; };
+		97F56FFD1B0FF67500BA8529 /* CustomMemeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F56FFC1B0FF67500BA8529 /* CustomMemeCell.swift */; };
+		97F570011B10F70400BA8529 /* MemeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F570001B10F70400BA8529 /* MemeTableViewController.swift */; };
+		97F570031B11266C00BA8529 /* MemeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F570021B11266C00BA8529 /* MemeDetailViewController.swift */; };
+		97F570071B120BF200BA8529 /* MemeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F570061B120BF200BA8529 /* MemeCollectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		972E71F71B02654400D8800E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 972E71D91B02654400D8800E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 972E71E01B02654400D8800E;
+			remoteInfo = ImagePickerTestforMeMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97142E6F1B0AC2A2000C7FC5 /* Meme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
+		972E71E11B02654400D8800E /* ImagePickerTestforMeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagePickerTestforMeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		972E71E51B02654400D8800E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		972E71E61B02654400D8800E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		972E71E81B02654400D8800E /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		972E71EB1B02654400D8800E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		972E71ED1B02654400D8800E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		972E71F01B02654400D8800E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		972E71F61B02654400D8800E /* ImagePickerTestforMeMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagePickerTestforMeMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		972E71FB1B02654400D8800E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		972E71FC1B02654400D8800E /* ImagePickerTestforMeMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerTestforMeMeTests.swift; sourceTree = "<group>"; };
+		97F56FFC1B0FF67500BA8529 /* CustomMemeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMemeCell.swift; sourceTree = "<group>"; };
+		97F570001B10F70400BA8529 /* MemeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeTableViewController.swift; sourceTree = "<group>"; };
+		97F570021B11266C00BA8529 /* MemeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeDetailViewController.swift; sourceTree = "<group>"; };
+		97F570061B120BF200BA8529 /* MemeCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeCollectionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		972E71DE1B02654400D8800E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972E71F31B02654400D8800E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		972E71D81B02654400D8800E = {
+			isa = PBXGroup;
+			children = (
+				972E71E31B02654400D8800E /* ImagePickerTestforMeMe */,
+				972E71F91B02654400D8800E /* ImagePickerTestforMeMeTests */,
+				972E71E21B02654400D8800E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		972E71E21B02654400D8800E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				972E71E11B02654400D8800E /* ImagePickerTestforMeMe.app */,
+				972E71F61B02654400D8800E /* ImagePickerTestforMeMeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		972E71E31B02654400D8800E /* ImagePickerTestforMeMe */ = {
+			isa = PBXGroup;
+			children = (
+				972E71E61B02654400D8800E /* AppDelegate.swift */,
+				972E71E81B02654400D8800E /* EditViewController.swift */,
+				97142E6F1B0AC2A2000C7FC5 /* Meme.swift */,
+				972E71EA1B02654400D8800E /* Main.storyboard */,
+				97F570061B120BF200BA8529 /* MemeCollectionViewController.swift */,
+				97F570021B11266C00BA8529 /* MemeDetailViewController.swift */,
+				97F570001B10F70400BA8529 /* MemeTableViewController.swift */,
+				97F56FFC1B0FF67500BA8529 /* CustomMemeCell.swift */,
+				972E71ED1B02654400D8800E /* Images.xcassets */,
+				972E71EF1B02654400D8800E /* LaunchScreen.xib */,
+				972E71E41B02654400D8800E /* Supporting Files */,
+			);
+			path = ImagePickerTestforMeMe;
+			sourceTree = "<group>";
+		};
+		972E71E41B02654400D8800E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				972E71E51B02654400D8800E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		972E71F91B02654400D8800E /* ImagePickerTestforMeMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				972E71FC1B02654400D8800E /* ImagePickerTestforMeMeTests.swift */,
+				972E71FA1B02654400D8800E /* Supporting Files */,
+			);
+			path = ImagePickerTestforMeMeTests;
+			sourceTree = "<group>";
+		};
+		972E71FA1B02654400D8800E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				972E71FB1B02654400D8800E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		972E71E01B02654400D8800E /* ImagePickerTestforMeMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 972E72001B02654400D8800E /* Build configuration list for PBXNativeTarget "ImagePickerTestforMeMe" */;
+			buildPhases = (
+				972E71DD1B02654400D8800E /* Sources */,
+				972E71DE1B02654400D8800E /* Frameworks */,
+				972E71DF1B02654400D8800E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImagePickerTestforMeMe;
+			productName = ImagePickerTestforMeMe;
+			productReference = 972E71E11B02654400D8800E /* ImagePickerTestforMeMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		972E71F51B02654400D8800E /* ImagePickerTestforMeMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 972E72031B02654400D8800E /* Build configuration list for PBXNativeTarget "ImagePickerTestforMeMeTests" */;
+			buildPhases = (
+				972E71F21B02654400D8800E /* Sources */,
+				972E71F31B02654400D8800E /* Frameworks */,
+				972E71F41B02654400D8800E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				972E71F81B02654400D8800E /* PBXTargetDependency */,
+			);
+			name = ImagePickerTestforMeMeTests;
+			productName = ImagePickerTestforMeMeTests;
+			productReference = 972E71F61B02654400D8800E /* ImagePickerTestforMeMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		972E71D91B02654400D8800E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Stephanie Truchan";
+				TargetAttributes = {
+					972E71E01B02654400D8800E = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					972E71F51B02654400D8800E = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 972E71E01B02654400D8800E;
+					};
+				};
+			};
+			buildConfigurationList = 972E71DC1B02654400D8800E /* Build configuration list for PBXProject "ImagePickerTestforMeMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 972E71D81B02654400D8800E;
+			productRefGroup = 972E71E21B02654400D8800E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				972E71E01B02654400D8800E /* ImagePickerTestforMeMe */,
+				972E71F51B02654400D8800E /* ImagePickerTestforMeMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		972E71DF1B02654400D8800E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972E71EC1B02654400D8800E /* Main.storyboard in Resources */,
+				972E71F11B02654400D8800E /* LaunchScreen.xib in Resources */,
+				972E71EE1B02654400D8800E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972E71F41B02654400D8800E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		972E71DD1B02654400D8800E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97142E701B0AC2A2000C7FC5 /* Meme.swift in Sources */,
+				972E71E91B02654400D8800E /* EditViewController.swift in Sources */,
+				972E71E71B02654400D8800E /* AppDelegate.swift in Sources */,
+				97F56FFD1B0FF67500BA8529 /* CustomMemeCell.swift in Sources */,
+				97F570071B120BF200BA8529 /* MemeCollectionViewController.swift in Sources */,
+				97F570011B10F70400BA8529 /* MemeTableViewController.swift in Sources */,
+				97F570031B11266C00BA8529 /* MemeDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972E71F21B02654400D8800E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972E71FD1B02654400D8800E /* ImagePickerTestforMeMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		972E71F81B02654400D8800E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 972E71E01B02654400D8800E /* ImagePickerTestforMeMe */;
+			targetProxy = 972E71F71B02654400D8800E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		972E71EA1B02654400D8800E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				972E71EB1B02654400D8800E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		972E71EF1B02654400D8800E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				972E71F01B02654400D8800E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		972E71FE1B02654400D8800E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		972E71FF1B02654400D8800E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		972E72011B02654400D8800E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImagePickerTestforMeMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		972E72021B02654400D8800E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImagePickerTestforMeMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		972E72041B02654400D8800E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ImagePickerTestforMeMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImagePickerTestforMeMe.app/ImagePickerTestforMeMe";
+			};
+			name = Debug;
+		};
+		972E72051B02654400D8800E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ImagePickerTestforMeMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImagePickerTestforMeMe.app/ImagePickerTestforMeMe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		972E71DC1B02654400D8800E /* Build configuration list for PBXProject "ImagePickerTestforMeMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972E71FE1B02654400D8800E /* Debug */,
+				972E71FF1B02654400D8800E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		972E72001B02654400D8800E /* Build configuration list for PBXNativeTarget "ImagePickerTestforMeMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972E72011B02654400D8800E /* Debug */,
+				972E72021B02654400D8800E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		972E72031B02654400D8800E /* Build configuration list for PBXNativeTarget "ImagePickerTestforMeMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972E72041B02654400D8800E /* Debug */,
+				972E72051B02654400D8800E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 972E71D91B02654400D8800E /* Project object */;
+}
